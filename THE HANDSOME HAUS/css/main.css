@@ -1,0 +1,126 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  font-family: "S-CoreDream-4Regular";
+  list-style: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  position: relative;
+  width: 540px;
+  height: auto;
+  margin: 0 auto;
+  -webkit-tap-highlight-color: transparent;
+  text-align: center;
+  z-index: -1;
+}
+
+.wrapper {
+  position: relative;
+  width: 540px;
+  height: auto;
+  overflow: hidden;
+  z-index: -1;
+  /* background-image: url("../img/model.gif"); */
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 76px;
+  margin: 0;
+}
+
+.menu {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  width: 53px;
+  height: 50px;
+  z-index: 3;
+}
+
+.nav {
+  position: relative;
+  width: 100%;
+  height: 573px;
+  top: -26px;
+  background-image: url("../img/nav/bg.png");
+  z-index: 888;
+  opacity: 0;
+  display: none;
+}
+
+#nav1 {
+  background-image: url("../img/nav/navOff1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#nav1.on {
+  background-image: url("../img/nav/navOn1.png");
+}
+#nav2 {
+  background-image: url("../img/nav/navOff2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#nav2.on {
+  background-image: url("../img/nav/navOn2.png");
+}
+#nav3 {
+  background-image: url("../img/nav/navOff3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#nav3.on {
+  background-image: url("../img/nav/navOn3.png");
+}
+
+#nav4 {
+  background-image: url("../img/nav/navOff4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#nav4.on {
+  background-image: url("../img/nav/navOn4.png");
+}
+
+.nav_ul {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  top: 20px;
+}
+
+.nav_li {
+  width: 100%;
+  height: 33px;
+  margin: 50px auto;
+}
+
+.close_btn {
+  position: absolute;
+  bottom: 94px;
+  left: 45%;
+  width: 50px;
+  height: 50px;
+}
+
+.video_link {
+  position: relative;
+  width: 470px;
+  height: 277px;
+  top: -994px;
+  left: 35px;
+}

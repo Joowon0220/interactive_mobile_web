@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=540, initial-scale=1.0">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="cache-control" content="no-cache, must-revalidate">
+  <link type="text/css" rel="stylesheet" href="./css/main.css">
+  <link type="text/css" rel="stylesheet" href="./css/vvip.css">
+  <link type="text/css" rel="stylesheet" href="./css/swiper.css">
+  <link type="text/css" rel="stylesheet" href="./css/swiper.min.css">
+  <script>
+    document.cookie = "safeCookie1=foo; SameSite=Lax"; document.cookie = "safeCookie2=foo"; document.cookie = "crossCookie=bar; SameSite=None; Secure";
+
+  </script>
+  <title>THE HANDSOME HAUS</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- <img src="img/model.gif"> -->
+    <header>
+      <img src="./img/nav/header.png">
+      <div class="menu" onclick="show_nav()"></div>
+      <div class="nav">
+        <ul class="nav_ul">
+          <li class="nav_li on" id="nav1" data-index="1"></li>
+          <li class="nav_li" id="nav2" data-index="2"></li>
+          <li class="nav_li" id="nav3" data-index="3"></li>
+          <li class="nav_li" id="nav4" data-index="4"></li>
+        </ul>
+        <div class="close_btn" onclick="close_evt()"></div>
+      </div>
+
+    </header>
+
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" data-hash="content1">
+          <img src="./img/content1/bg1.png" class="info_video" />
+          <div class="video_link"><iframe width="470" height="277" src="https://www.youtube.com/embed/1rO3pY9J0-8"
+              frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+        <div class="swiper-slide" >
+          <img src="./img/content1/bg2.png" class="floor" />
+        </div>
+        <div class="swiper-slide" data-hash="content2">
+          <img src="./img/content2/bg.png" class="location" />
+        </div>
+        
+        <div class="swiper-slide slide4" data-hash="content3">
+
+          <img src="./img/content3/bg.png" class="vvip_bg" />
+          <div class="grades">
+            <img src="./img/content3/btn1.png" class="grade first" />
+            <img  src="./img/content3/icon1.png" class="icon1" />
+             <img src="./img/content3/text1.png" class="info_txt" />
+          </div>
+          
+          <div class="grades">
+            <img src="./img/content3/btn2.png" class="grade platinum" />
+            <img src="./img/content3/icon1.png" class="icon1" />
+            <img src="./img/content3/text2.png" class="info_txt" />
+          </div>
+        
+          <div class="grades">
+            <img src="./img/content3/btn3.png" class="grade gold" />
+            <img src="./img/content3/icon1.png" class="icon1" />
+            <img src="./img/content3/text3.png" class="info_txt" />
+          </div>
+        
+          <div class="grades">
+            <img src="./img/content3/btn4.png" class="grade silver" />
+            <img src="./img/content3/icon1.png" class="icon1" />
+            <img src="./img/content3/text4.png" class="info_txt" />
+          </div>
+         
+          <img src="./img/content3/bottom_text.png" class="bottom_text" />
+        </div>
+        <div class="swiper-slide" data-hash="content4">
+          <img src="./img/content4/bg.png" class="map" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+
+
+    </div>
+
+
+  </div>
+
+</body>
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/TweenMax.min.js"></script>
+<script src="./js/ScrollMagic.js"></script>
+<script src="./js/swiper.min.js"></script>
+
+
+<script type="text/javascript" src="./js/main.js"></script>
+
+<script src="./js/makeSwipe.js"></script>
+
+
+</html>

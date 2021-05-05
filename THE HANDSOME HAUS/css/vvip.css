@@ -1,0 +1,35 @@
+
+.slide4 {
+  background-color: #e7cdbe;
+  height: auto;
+  overflow: visible;
+}
+
+.grade {
+  position: relative;
+  width: 96%;
+  height: auto;
+  margin: 10px auto;
+}
+
+.icon1 {
+  position: relative;
+  width: auto;
+  height: auto;
+  top: -81px;
+  right: -210px;
+  z-index: 2;
+  background-image: url("../img/content3/icon1.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background: transparent;
+}
+
+.info_txt {
+  position: relative;
+  display: none;
+  width:auto;
+  height: auto;
+  margin: 0 auto;
+}
+
