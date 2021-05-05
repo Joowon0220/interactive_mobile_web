@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html style="height: 100%;">
+
+<head>
+  <?php include $_SERVER['DOCUMENT_ROOT'].'/common_file/common.php'; ?>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="viewport" content="width=540,user-scalable=no" />
+  <meta name="apple-mobile-web-app-title" content="NAVER" />
+  <meta http-equiv="Expires" content="0" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta property="og:image" content="0" />
+
+  <link rel="stylesheet" href="/common_file/lib/css/reset.css" />
+  <link rel="stylesheet" href="/common_file/lib/css/swiper.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css?v=<?php echo $version?>" />
+
+  <?php include $_SERVER['DOCUMENT_ROOT'].'/common_file/analytics.html'; ?>
+  <script src="https://assets.icatalog.io/imFlow.min.js"></script>
+</head>
+
+<body class="text-center">
+
+  <div class="popWrap">
+    <div class="popKakao click-f" data-name="카카오채널 바로가기"></div>
+    <div class="popInsta click-f" data-name="인스타그램 바로가기"></div>
+    <div class="popClose"></div>
+  </div>
+
+  <div class="topMenu">
+    <div id="home"></div>
+    <div id="title">
+      <div class="title" id="title1">
+        <img src="img/common/top/down_title1.png?v=<?php echo $version?>" />
+      </div>
+      <div class="title" id="title2">
+        <img src="img/common/top/up_title1.png?v=<?php echo $version?>" />
+      </div>
+    </div>
+
+    <div id="menuBg">
+      <img src="img/common/top/nav_bg.png" />
+      <div id="menuBox">
+        <div class="menuBtn" id="menuBtn1" data-index="1"></div>
+        <div class="menuBtn" id="menuBtn2" data-index="2"></div>
+        <div class="menuBtn" id="menuBtn3" data-index="3"></div>
+        <div class="menuBtn" id="menuBtn4" data-index="4"></div>
+        <div class="menuBtn" id="menuBtn5" data-index="5"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sub_nav4">
+    <div class="swiper-container-sub4Nav">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div id="fashion1" class="fashion"></div>
+        </div>
+        <div class="swiper-slide">
+          <div id="fashion2" class="fashion"></div>
+        </div>
+        <div class="swiper-slide">
+          <div id="fashion3" class="fashion"></div>
+        </div>
+        <div class="swiper-slide">
+          <div id="fashion4" class="fashion"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="sub_nav5">
+    <div class="swiper-container-sub5Nav">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div id="food1" class="food"></div>
+        </div>
+        <div class="swiper-slide">
+          <div id="food2" class="food"></div>
+        </div>
+        <div class="swiper-slide">
+          <div id="food3" class="food"></div>
+        </div>
+        <div class="swiper-slide">
+          <div id="food4" class="food"></div>
+        </div>
+        <div class="swiper-slide">
+          <div id="food5" class="food"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" data-hash="sub1" data-name="쇼핑핫뉴스">
+        <img src="img/bg/bg1.png?v=<?php echo $version?>" class="sub_content" />
+      </div>
+
+      <div class="swiper-slide" data-hash="sub2" data-name="가치사자">
+        <img src="img/bg/bg2.png?v=<?php echo $version?>" class="sub_content" />
+      </div>
+
+      <div class="swiper-slide" data-hash="sub3" data-name="사은이벤트">
+        <img src="img/bg/bg3.png?v=<?php echo $version?>" class="sub_content" />
+      </div>
+
+      <!-- sub4 start -->
+      <div class="swiper-slide" data-hash="sub4" data-name="패션잡화/스포츠/아웃도어">
+        <img src="img/bg/bg4_1.png?v=<?php echo $version?>" class="sub_content" />
+      </div>
+      <div class="swiper-slide" data-hash="sub4_2" data-name="영/이지 캐주얼">
+        <img src="img/bg/bg4_2.png?v=<?php echo $version?>" class="sub_content" />
+      </div>
+      <div class="swiper-slide" data-hash="sub4_3" data-name="숙녀캐주얼/정장">
+        <img src="img/bg/bg4_3.png?v=<?php echo $version?>" class="sub_content" />
+      </div>
+      <div class="swiper-slide" data-hash="sub4_4" data-name="신사/골프/아동/생활">
+        <img src="img/bg/bg4_4.png?v=<?php echo $version?>" class="sub_content" />
+      </div>
+
+      <!-- sub4 end -->
+
+      <!-- sub5 start -->
+      <div class="swiper-slide" data-hash="sub5" data-name="서두르자 9시">
+        <img src="img/bg/bg5_1.png?v=<?php echo $version?>" class="sub_content" />
+      </div>
+      <div class="swiper-slide" data-hash="sub5_2" data-name="멤버쉽 특별 할인">
+        <img src="img/bg/bg5_2.png?v=<?php echo $version?>" class="sub_content" />
+      </div>
+      <div class="swiper-slide" data-hash="sub5_3" data-name="담을수록 이득">
+        <img src="img/bg/bg5_3.png?v=<?php echo $version?>" class="sub_content" />
+      </div>
+      <div class="swiper-slide" data-hash="sub5_4" data-name="신선식품">
+        <img src="img/bg/bg5_4.png?v=<?php echo $version?>" class="sub_content" />
+      </div>
+      <div class="swiper-slide" data-hash="sub5_5" data-name="가공생활">
+        <img src="img/bg/bg5_5.png?v=<?php echo $version?>" class="sub_content" />
+      </div>
+      <!-- sub5 end -->
+    </div>
+  </div>
+  <img id="sub2_btn" class="click-f" data-name="지금 가치사자" src="img/btn/bg2-btn.png?v=<?php echo $version?>" />
+  <div class="floatingBtn click-f" data-name="카카오 친구맺기"></div>
+
+  <script src="/common_file/lib/js/jquery-3.3.1.min.js"></script>
+  <script src="/common_file/lib/js/jquery.easing.1.3.js"></script>
+  <script src="/common_file/lib/js/swiper.min.js"></script>
+  <script src="/common_file/lib/js/pageTracking_v11.js"></script>
+  <script src="/common_file/lib/js/no_day.js"></script>
+  <script src="/common_file/lib/js/TweenMax.min.js"></script>
+  <script src="/common_file/lib/js/prefixfree.min.js"></script>
+
+  <script type="text/javascript" src="js/makeSwipe.js?v=<?php echo $version?>"></script>
+  <script type="text/javascript" src="js/main.js?v=<?php echo $version?>"></script>
+  <script type="text/javascript" src="js/clickEvents.js?v=<?php echo $version?>"></script>
+
+  <script type="text/javascript">
+    var url = location.href.split("/")[3];
+    date = 210309;
+    window.version = 0; //js 배너이미지버전
+    /*  url을 따서 dm 카운팅 타이틀 값 세팅  */
+
+    if (url == "hwajung") {
+      dmNum = 1;
+      dmName = 'HJ';
+      titleName = "화정"
+    } else if (url == "ulsan") {
+      dmNum = 2;
+      dmName = 'US';
+      titleName = "울산"
+    } else if (url == "nowon") {
+      dmNum = 3;
+      dmName = 'NW';
+      titleName = "노원"
+    } else if (url == "seongnam") {
+      dmNum = 4;
+      dmName = 'SN';
+      titleName = "성남"
+    } else if (url == "gwangmyeong") {
+      dmNum = 5;
+      dmName = 'GM';
+      titleName = "광명"
+    } else if (url == "daejeon") {
+      dmNum = 6;
+      dmName = 'DJ';
+      titleName = "대전"
+    } else if (url == "haeundae") {
+      dmNum = 7;
+      dmName = 'HD';
+      titleName = "해운대"
+    } else if (url == "sangdong") {
+      dmNum = 8;
+      dmName = 'SD';
+      titleName = "상동"
+    } else if (url == "jeonju") {
+      dmNum = 9;
+      dmName = 'JJ';
+      titleName = "전주"
+    }
+
+    getName = $("<title>세이브존 " + titleName + "점</title>");
+    $(getName).appendTo("head");
+
+    var imFlow = new IMFlow(location.hostname, "세이브존" + titleName + "점", date);
+    imFlow.contentCount('서브');
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,255 @@
+﻿body,
+html {
+    width: 540px;
+    margin: 0 auto;
+}
+
+#wrapper {
+    width: 540px;
+    height: 1000px;
+    position: relative;
+}
+
+.thetaContainer {
+    position: absolute;
+    width: 540px;
+    height: 1000px;
+    top: -17px;
+    opacity: 0;
+}
+
+.header {
+    position: absolute;
+    width: 540px;
+    height: 160px;
+    top: 0px;
+    z-index: 1;
+}
+
+#dm {
+    position: absolute;
+    width: 77px;
+    height: 18px;
+    top: 49px;
+    left: 260px;
+    background: url(/common_file/img/dm/9.png?v=2) no-repeat center;
+}
+
+.swiper-container {
+    position: absolute;
+    width: 540px;
+    height: 665px;
+    top: 160px;
+    opacity: 0;
+    z-index: 1;
+}
+
+.swiper-slide {
+    opacity: 0;
+}
+
+#logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+#branch {
+    position: absolute;
+    top: 49px;
+    left: 259px;
+}
+
+.navArea {
+    position: absolute;
+    top: 115px;
+    left: 40px;
+    z-index: 1;
+    opacity: 0;
+}
+
+.nav {
+    position: absolute;
+    height: 10px;
+    top: 0px;
+    z-index: 1;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+}
+
+.nav.on {
+    background-color: #f48221;
+}
+
+
+/*
+.link{
+	position: absolute;
+	top:235px;
+	left: 120px;
+	width: 250px;
+	height: 100px;
+	z-index: 1;
+}
+*/
+
+.link {
+    position: absolute;
+    top: 21px;
+    left: 40px;
+    width: 400px;
+    height: 600px;
+    z-index: 1;
+}
+
+.bottom {
+    position: absolute;
+    width: 540px;
+    height: 176px;
+    bottom: 0px;
+}
+
+.btnArea {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.btn {
+    position: absolute;
+    height: 120px;
+    z-index: 1;
+    text-align: center;
+}
+
+
+/*
+#event_content div {
+    position: absolute;
+}
+
+#event_pop {
+    width: 540px;
+    height: 1000px;
+    background: url("../img/pop/pop_bg.png") 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    display: none;
+}
+
+#event_fixed {
+    width: 540px;
+    height: 730px;
+    position: fixed;
+    top: 59px;
+    display: none;
+}
+
+#event_content {
+    width: 100%;
+    height: 100%;
+    top: 80px;
+    position: relative;
+}
+
+#pop_img {
+    width: 400px;
+    height: 398px;
+    left: calc(50% - 190px);
+    background: url("../img/pop/pop_content.png?v=0") 100% 100%;
+}
+
+#pop_link {
+    width: 540px;
+    height: 360px;
+    top: 0px;
+}
+
+#pop_check {
+    width: 14px;
+    height: 10px;
+    top: 383px;
+    left: 251px;
+	background: url("../img/pop/check.png?v=0") 100% 100%;
+    display: none;
+}
+
+#pop_none {
+    width: 220px;
+    height: 70px;
+    top: 360px;
+    left: 160px;
+    cursor: pointer;
+}
+
+#pop_close {
+    width: 90px;
+    height: 60px;
+    top: 360px;
+    left: 380px;
+    cursor: pointer;
+}*/
+/* 팝업 시작 */
+.popWrap {
+    width: 540px;
+    height: 1100px;
+    position: absolute;
+    z-index: 15;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.5) url("../img/popup/pop.png?v=4") no-repeat center 175px;
+    display: none;
+}
+.popKakao {
+    width: 120px;
+    height: 135px;
+    position: absolute;
+    left: 145px;
+    top: 375px;
+    cursor: pointer;
+}
+.popInsta {
+    width: 120px;
+    height: 135px;
+    position: absolute;
+    left: 275px;
+    top: 375px;
+    cursor: pointer;
+}
+
+.popClose {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 120px;
+    top: 528px;
+    cursor: pointer;
+}
+/* 팝업 끝 */
+
+.floatingBtn {
+    width: 95px;
+    height: 95px;
+    position: fixed;
+    z-index: 12;
+    background: url("../img/popup/floating.png");
+    cursor: pointer;
+    animation: floatBanner ease-in-out 2.8s infinite;
+    left: 50%;
+    bottom: 15%;
+    margin-left: 130px;
+    margin-bottom: 25px;
+}
+@keyframes floatBanner{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

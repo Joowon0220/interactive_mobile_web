@@ -1,0 +1,123 @@
+<!-- 이현성 v1.0-->
+<!DOCTYPE html>
+<html style="height:100%;">
+
+<head>
+  <?php include $_SERVER['DOCUMENT_ROOT'].'/common_file/common.php'; ?>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="viewport" content="width=540,user-scalable=no" />
+  <meta name="apple-mobile-web-app-title" content="NAVER" />
+  <meta http-equiv="Expires" content="0" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta property="og:image" content="0" />
+
+  <link rel="stylesheet" href="/common_file/lib/css/swiper.min.css">
+  <link href="css/style.css?v=<?php echo $version?>" rel="stylesheet" />
+
+  <?php include $_SERVER['DOCUMENT_ROOT'].'/common_file/analytics.html'; ?>
+</head>
+
+<script src="https://assets.icatalog.io/imFlow.min.js"></script>
+<script>
+  date = 210309;
+
+  window.version = 9; //js 배너이미지버전
+  window.nodeNum = 7; //메인 배너 갯수
+  window.bottomNum = 5; //하단 버튼수
+</script>
+
+<body>
+  <div id="wrapper">
+
+    <!-- 팝업 시작 -->
+    <div class="popWrap">
+      <div class="popKakao click-f" data-name="카카오채널 바로가기"></div>
+      <div class="popInsta click-f" data-name="인스타그램 바로가기"></div>
+      <div class="popClose"></div>
+    </div>
+    <!-- 팝업 끝 -->
+
+    <div id="dm"></div>
+    <img src="img/bg.png?v=1">
+    <div class="header">
+      <div class="navArea"></div>
+    </div>
+
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+      </div>
+    </div>
+    <div class="thetaContainer"></div>
+
+    <div class="bottom">
+      <div class="btnArea"></div>
+    </div>
+    <div class="floatingBtn click-f" data-name="카카오 친구맺기"></div>
+  </div>
+
+
+  <script src="/common_file/lib/js/jquery-3.3.1.min.js"></script>
+  <script src="/common_file/lib/js/pageTracking_v11.js"></script>
+  <script src="/common_file/lib/js/swiper.min.js"></script>
+  <script type="text/javascript" src="/common_file/lib/js/no_day.js"></script>
+  <script src="js/theta-carousel.min.js"></script>
+  <script src="js/main.js?v=<?php echo $version?>"></script>
+  <script>
+    var url = location.href.split("/")[3];
+
+    /* 
+        url을 따서 dm 카운팅 타이틀 값 세팅
+    */
+
+    if (url == "hwajung") {
+      dmNum = 1;
+      dmName = 'HJ';
+      titleName = "화정"
+    } else if (url == "ulsan") {
+      dmNum = 2;
+      dmName = 'US';
+      titleName = "울산"
+    } else if (url == "nowon") {
+      dmNum = 3;
+      dmName = 'NW';
+      titleName = "노원"
+    } else if (url == "seongnam") {
+      dmNum = 4;
+      dmName = 'SN';
+      titleName = "성남"
+    } else if (url == "gwangmyeong") {
+      dmNum = 5;
+      dmName = 'GM';
+      titleName = "광명"
+    } else if (url == "daejeon") {
+      dmNum = 6;
+      dmName = 'DJ';
+      titleName = "대전"
+    } else if (url == "haeundae") {
+      dmNum = 7;
+      dmName = 'HD';
+      titleName = "해운대"
+    } else if (url == "sangdong") {
+      dmNum = 8;
+      dmName = 'SD';
+      titleName = "상동"
+    } else if (url == "jeonju") {
+      dmNum = 9;
+      dmName = 'JJ';
+      titleName = "전주"
+    }
+
+    document.getElementById("dm").src = "img/dm/" + dmNum + ".png?v=<?php echo $version?>";
+    getName = $("<title>세이브존 " + titleName + "점</title>");
+    $(getName).appendTo("head");
+
+    var imFlow = new IMFlow(location.hostname, "세이브존" + titleName + "점", date);
+    imFlow.contentCount('메인');
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+html {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* preload 시작 */
+
+#loder_box {
+    position: fixed;
+    width: 540px;
+    height: 1000px;
+    left: 50%;
+    top: 0;
+    margin-left: -270px;
+    background-color: white;
+    z-index: 10;
+}
+
+#loder {
+    position: relative;
+    top: 330px;
+    margin: 0 auto;
+}
+
+#intro {
+    position: absolute;
+    display: none;
+    left: calc(50% - 270px);
+}
+
+
+/* preload 종료 */
+
+.skipBtn {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 33px;
+    right: 20px;
+    z-index: 10;
+    background: url("../img/skip.png") center no-repeat;
+}
+
+.btn>img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+@keyframes btn_fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
