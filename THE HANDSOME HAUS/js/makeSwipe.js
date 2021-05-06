@@ -78,6 +78,4 @@ function activeHeightSet() {
   console.log('slide-active : ' + slideHt);
   $('.wrapper').css('height', slideHt);
   $('.swiper-container').css('height', slideHt);
-  // $('.wrapper').css('height', slideHt);
-  $('.wrapper').css('background-color', 'red');
 }
