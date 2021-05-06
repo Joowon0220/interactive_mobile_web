@@ -1,8 +1,8 @@
 
 var mySwiper = new Swiper('.mySwiper', {
-  
+
   loop: true,
-  observer:true,
+  observer: true,
   autoHeight: true,
   hashNavigation: {
     replaceState: true,
@@ -30,20 +30,16 @@ var mySwiper = new Swiper('.mySwiper', {
       } else {
         $('#nav' + this.realIndex).addClass('on');
       }
-      console.log('언제: ' );
-  
+
     },
     slideChangeTransitionStart: function () {
       window.scrollTo(top);
 
       if (this.realIndex === 3) {
         var activeHt = $('.swiper-slide-active').height();
-        console.log('wrapper0 : ' + activeHt);
         $('.wrapper').css('height', activeHt);
-        $(".icon1").on("click", gradeInfo);
       } else {
         var activeHt = $('.swiper-slide-active > img').height();
-        console.log(activeHt);
         $('.wrapper').css('height', activeHt);
       }
 
@@ -53,18 +49,22 @@ var mySwiper = new Swiper('.mySwiper', {
 
 });
 
+$(document).ready(function () {
+  $(".icon1").on("click", gradeInfo);
+})
+
 function gradeInfo() {
   if ($(this).hasClass('ontxt')) {
 
     $(this).next().css("display", "none");
-    $(this).attr("src", "../img/content3/icon1.png");
+    $(this).attr("src", "./img/content3/icon1.png");
     $(this).removeClass('ontxt');
     activeHeightSet();
 
   } else {
     $(this).addClass('ontxt');
     $(this).next().css("display", "block");
-    $(this).attr("src", "../img/content3/icon2.png");
+    $(this).attr("src", "./img/content3/icon2.png");
     activeHeightSet();
 
   }
@@ -74,10 +74,10 @@ function gradeInfo() {
 
 function activeHeightSet() {
   var slideHt =
-      $('.swiper-slide-active').height();
-      console.log('slide-active : '+slideHt);
-      $('.wrapper').css('height', slideHt);
-      $('.swiper-container').css('height', slideHt);
-      // $('.wrapper').css('height', slideHt);
-      $('.wrapper').css('background-color', 'red');
+    $('.swiper-slide-active').height();
+  console.log('slide-active : ' + slideHt);
+  $('.wrapper').css('height', slideHt);
+  $('.swiper-container').css('height', slideHt);
+  // $('.wrapper').css('height', slideHt);
+  $('.wrapper').css('background-color', 'red');
 }
