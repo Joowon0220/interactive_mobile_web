@@ -1,4 +1,6 @@
-
+$(window).on('load', function () {
+  activeHeightSet();
+})
 var mySwiper = new Swiper('.mySwiper', {
 
   loop: true,
@@ -54,20 +56,20 @@ $(document).ready(function () {
 })
 
 function gradeInfo() {
-  if ($(this).hasClass('ontxt')) {
 
-    $(this).next().css("display", "none");
+
+  if ($(this).hasClass('ontxt')) {
+    $(this).next().css('display', 'none');
     $(this).attr("src", "./img/content3/icon1.png");
     $(this).removeClass('ontxt');
-    activeHeightSet();
 
   } else {
-    $(this).addClass('ontxt');
-    $(this).next().css("display", "block");
+    $(this).next().css('display', 'block');
     $(this).attr("src", "./img/content3/icon2.png");
-    activeHeightSet();
+    $(this).addClass('ontxt');
 
   }
+  activeHeightSet();
 }
 
 

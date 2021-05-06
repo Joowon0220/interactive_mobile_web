@@ -23,7 +23,11 @@
   background-size: auto;
   background: transparent;
 }
-
+/* .ontxt {
+  position: relative;
+  top: -596px;
+  right: -460px;
+} */
 .info_txt {
   position: relative;
   display: none;

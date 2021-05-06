@@ -1,3 +1,7 @@
+// app.use(
+//   cookieParser(process.env.COOKIE_SECRET, { sameSite: "none", secure: true })
+// );
+
 //header
 function show_nav() {
   TweenMax.to('.nav', 0.5, { display: 'block', opacity: 1 })
@@ -18,28 +22,3 @@ function menuSlide() {
   location.href = "#content" + i;
 }
 
-// function gradeInfo() {
-//   if ($(this).hasClass('ontxt')) {
-
-//     $(this).next().css("display", "none");
-//     $(this).attr("src", "../img/content3/icon1.png");
-//     $(this).removeClass('ontxt');
-//     activeHeightSet();
-
-//   } else {
-//     $(this).addClass('ontxt');
-//     $(this).next().css("display", "block");
-//     $(this).attr("src", "../img/content3/icon2.png");
-//     activeHeightSet();
-
-//   }
-// }
-
-
-// function activeHeightSet() {
-//   var slideHt =
-//       $('.swiper-slide-active').height();
-//       console.log('slide-active : '+slideHt);
-//       $('.wrapper').css('height', slideHt);
-//       $('.wrapper').css('background-color', 'red');
-// }
