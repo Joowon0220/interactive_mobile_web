@@ -1,5 +1,13 @@
 $(window).on('load', function () {
-  activeHeightSet();
+  console.log(this.realIndex);
+
+  if ($('.swiper-slide')) {
+    var activeHt = $('.swiper-slide-active > img').height();
+    $('.wrapper').css('height', activeHt);
+  } else {
+    activeHeightSet();
+  }
+
 })
 var mySwiper = new Swiper('.mySwiper', {
 
@@ -81,3 +89,15 @@ function activeHeightSet() {
   $('.wrapper').css('height', slideHt);
   $('.swiper-container').css('height', slideHt);
 }
+
+
+// function activeHeightSet() {
+//   if (this.realIndex === 3) {
+//     var activeHt = $('.swiper-slide-active').height();
+//     $('.wrapper').css('height', activeHt);
+//   } else {
+//     var activeHt = $('.swiper-slide-active > img').height();
+//     $('.wrapper').css('height', activeHt);
+//   }
+
+// }
