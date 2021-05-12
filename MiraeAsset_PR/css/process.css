@@ -1,0 +1,114 @@
+.p_top {
+  position: absolute;
+  top: 0;
+}
+
+.info1 {
+  position: absolute;
+  width: 1120px;
+  height: 360px;
+  top: 570px;
+  left: 400px;
+}
+
+.apply {
+  position: absolute;
+  top: 45px;
+  left: 35px;
+  opacity: 0;
+}
+
+.arrows {
+  position: absolute;
+  top: 136px;
+  left: 269px;
+  opacity: 0;
+}
+.documents {
+  position: absolute;
+  top: 45px;
+  left: 304px;
+  opacity: 0;
+}
+.arrows1 {
+  position: absolute;
+  top: 136px;
+  left: 538px;
+  opacity: 0;
+}
+.approval {
+  position: absolute;
+  top: 45px;
+  left: 574px;
+  opacity: 0;
+}
+.arrows2 {
+  position: absolute;
+  top: 136px;
+  left: 808px;
+  opacity: 0;
+}
+
+.open {
+  position: absolute;
+  top: 45px;
+  left: 842px;
+  opacity: 0;
+}
+.twodays {
+  position: absolute;
+  top: 300px;
+  left: 526px;
+  opacity: 0;
+}
+.orange_arrow {
+  position: absolute;
+  top: 250px;
+  left: 408px;
+  opacity: 0;
+}
+
+/* .info2 {
+  position: absolute;
+  width: 1120px;
+  height: 360px;
+  top: 962px;
+  left: 400px;
+} */
+.box1 {
+  position: absolute;
+  top: 1064px;
+  left: 400px;
+  opacity: 0;
+}
+.box2 {
+  position: absolute;
+  top: 1064px;
+  left: 787px;
+  opacity: 0;
+}
+
+.box3 {
+  position: absolute;
+  top: 1062px;
+  left: 1172px;
+  opacity: 0;
+}
+
+.third {
+  position: absolute;
+  top: 1366px;
+  left: 399px;
+}
+.fourth {
+  position: absolute;
+  top: 1838px;
+  left: 399px;
+}
+
+.footer {
+  position: absolute;
+  top: 1203px;
+  width: 1920px;
+  height: auto;
+}

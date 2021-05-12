@@ -1,0 +1,203 @@
+.info1 {
+  position: absolute;
+  top: 80px;
+  width: 1920px;
+  height: 1720px;
+}
+
+.btn1 {
+  position: absolute;
+  top: 222px;
+  left: 320px;
+}
+
+.btn2 {
+  position: absolute;
+  top: 222px;
+  left: 548px;
+}
+
+.info2 {
+  position: absolute;
+  top: 1800px;
+  width: 1920px;
+  height: 1280px;
+}
+
+.info3 {
+  position: absolute;
+  top: 3080px;
+  width: 1920px;
+  height: 1500px;
+}
+
+.arrow {
+  position: absolute;
+  top: 756px;
+  left: 583px;
+  opacity: 0;
+  transform: rotate(90deg);
+}
+.coin {
+  position: absolute;
+  top: 766px;
+  left: 603px;
+  opacity: 0;
+}
+.nfcIcon {
+  position: absolute;
+  top: 227px;
+  left: 1002px;
+  opacity: 0;
+}
+.b1 {
+  position: absolute;
+  top: 190px;
+  left: 481px;
+  opacity: 1;
+  /* clip: rect(251px, 311px, 251px, 0px); */
+}
+.b2 {
+  position: absolute;
+  top: 190px;
+  left: 1070px;
+  opacity: 1;
+  /* clip: rect(251px, 285px, 251px, 0px); */
+}
+.b3 {
+  position: absolute;
+  top: 543px;
+  left: 481px;
+  opacity: 1;
+  /* clip: rect(244px, 268px, 244px, 0px); */
+}
+.b4 {
+  position: absolute;
+  top: 543px;
+  left: 1070px;
+  opacity: 1;
+  /* clip: rect(240px, 288px, 240px, 0px); */
+}
+
+.marketing {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 400px;
+  height: 220px;
+}
+
+.marketing_A {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: auto;
+}
+
+.top {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 40px;
+}
+.bottom {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 100px;
+  display: block;
+}
+.a_title {
+  position: absolute;
+  top: 12px;
+  left: 1px;
+}
+.show {
+  position: relative;
+  top: 4px;
+  left: 372px;
+  transform: rotate(0);
+}
+.show.on {
+  transform: rotate(180deg);
+}
+.a_txt {
+  position: relative;
+  top: 15px;
+  left: 1px;
+  display: block;
+}
+.br {
+  position: relative;
+  bottom: 16px;
+  left: -3px;
+}
+.marketing_B {
+  position: relative;
+  top: 0px;
+  left: 0;
+  width: 400px;
+  height: auto;
+}
+.top_b {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 48px;
+}
+.bottom_b {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 100px;
+  display: none;
+}
+.b_title {
+  position: relative;
+  top: 10px;
+  left: 2px;
+}
+
+.b_txt {
+  position: relative;
+  top: 13px;
+  left: 1px;
+  display: block;
+}
+
+.show2 {
+  position: relative;
+  top: 4px;
+  left: 22px;
+  transform: rotate(180deg);
+}
+.show2.on {
+  transform: rotate(0deg);
+}
+
+.b5 {
+  position: absolute;
+  top: 975px;
+  left: 481px;
+  opacity: 1;
+  /* clip: rect(290px, 257px, 290px, 0px); */
+}
+.b6 {
+  position: absolute;
+  top: 975px;
+  left: 1070px;
+  opacity: 1;
+  /* clip: rect(304px, 264px, 304px, 0px); */
+}
+
+.footer {
+  position: absolute;
+  top: 2289px;
+  width: 1920px;
+  height: auto;
+}

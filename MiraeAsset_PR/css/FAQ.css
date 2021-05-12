@@ -1,0 +1,86 @@
+html {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.faq_top {
+  position: absolute;
+  top: 0;
+}
+
+.FAQs {
+  position: absolute;
+  top: 580px;
+  left: 480px;
+  width: 961px;
+  height: auto;
+}
+
+.QnA {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 961px;
+  height: auto;
+  margin: 0 0 55px 0;
+}
+
+.category {
+  position: relative;
+  top: -10px;
+  border: 1px solid #f85021;
+  padding: 0 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  letter-spacing: -0.11em;
+}
+
+.Q {
+  display: inline-flex;
+  width: 960px;
+  height: 60px;
+  position: relative;
+  top: 4px;
+  border-bottom: 1px solid #c4c4c4;
+  /* background-color: royalblue; */
+  /* opacity: 0.5; */
+}
+.q_title {
+  position: relative;
+  left: 30px;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.11em;
+}
+.anchor {
+  position: absolute;
+  right: 5px;
+}
+
+.anchor.on {
+  position: absolute;
+  right: 5px;
+  transform: rotate(180deg);
+}
+
+.A {
+  position: relative;
+  top: 0px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.11em;
+  padding: 30px;
+  margin-bottom: 55px;
+  color: #303030;
+  background-color: #f9f9fb;
+  display: none;
+}
+.A.on {
+  display: block;
+}
+
+.footer {
+  position: absolute;
+  top: 940px;
+  width: 1920px;
+  height: auto;
+}
