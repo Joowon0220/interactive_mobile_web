@@ -2,23 +2,12 @@ html {
   font-family: "Noto Sans KR", sans-serif;
 }
 
-.faq_top {
-  position: absolute;
-  top: 0;
-}
-
 .FAQs {
-  position: absolute;
-  top: 580px;
-  left: 480px;
+  margin: 106px 0 197px 480px;
   width: 961px;
-  height: auto;
 }
 
 .QnA {
-  position: relative;
-  top: 0px;
-  left: 0px;
   width: 961px;
   height: auto;
   margin: 0 0 55px 0;
@@ -39,7 +28,7 @@ html {
   width: 960px;
   height: 60px;
   position: relative;
-  top: 4px;
+  top: 0px;
   border-bottom: 1px solid #c4c4c4;
   /* background-color: royalblue; */
   /* opacity: 0.5; */
@@ -74,13 +63,12 @@ html {
   background-color: #f9f9fb;
   display: none;
 }
-.A.on {
+.A.ontxt {
   display: block;
 }
 
-.footer {
+.ref {
   position: absolute;
-  top: 940px;
-  width: 1920px;
-  height: auto;
+  top: 0px;
+  z-index: -1;
 }
