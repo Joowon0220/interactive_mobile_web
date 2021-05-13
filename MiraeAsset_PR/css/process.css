@@ -1,13 +1,12 @@
-.p_top {
-  position: absolute;
-  top: 0;
+.info {
+  height: 1940px;
 }
 
 .info1 {
-  position: absolute;
+  position: relative;
   width: 1120px;
   height: 360px;
-  top: 570px;
+  top: 100px;
   left: 400px;
 }
 
@@ -68,13 +67,6 @@
   opacity: 0;
 }
 
-/* .info2 {
-  position: absolute;
-  width: 1120px;
-  height: 360px;
-  top: 962px;
-  left: 400px;
-} */
 .box1 {
   position: absolute;
   top: 1064px;
@@ -104,11 +96,4 @@
   position: absolute;
   top: 1838px;
   left: 399px;
-}
-
-.footer {
-  position: absolute;
-  top: 1203px;
-  width: 1920px;
-  height: auto;
 }

@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="./css/FAQ.css">
   <link type="text/css" rel="stylesheet" href="./common/css/reset.css">
-  <title>FAQ</title>
+  <title>미래에셋페이 FAQ</title>
 
 </head>
 
@@ -22,10 +22,11 @@
   
     <nav>
       <img src="./common/img/nav.png" class="nav_img">
+      <button class="logo" onclick="location.href='./main.html'"></button>
       <ul class="nav_ul">
-        <li class="nav_li"></li>
-        <li class="nav_li"></li>
-        <li class="nav_li"></li>
+        <li class="nav_li" onclick="location.href='./NFC.html'"></li>
+        <li class="nav_li" onclick="location.href='./process.html'"></li>
+        <li class="nav_li" onclick="location.href='./FAQ.html'"></li>
         <li class="nav_li"></li>
       </ul>
     </nav>
@@ -129,9 +130,16 @@
     </div>
 
 
-    <div class="footer"><img src="./common/img/footer.png" class="footer"></div>
+    <div class="footer">
+      <img src="./common/img/footer.png" class="footer">
+        <button id="go_apply" onclick="location.href='https://www.miraeassetpay.kr/welcome/index.html'"></button>
+      <button id="privacy_agree" onclick="location.href='./terms/personal_info.html'"></button>
+      <button id="pay_agree" onclick="location.href='./terms/pay_info.html'"></button>
+      <button id="asset_agree" onclick="location.href='./terms/asset_info.html'"></button>
+      <button id="shoot_agree" onclick="location.href='./terms/shoot_info.html'"></button>
+    </div>
 
-  <img src="./ref/FAQ.jpg" style="opacity: 0.5;" class="ref">
+  <!-- <img src="./ref/FAQ.jpg" style="opacity: 0.5;" class="ref"> -->
   </div>
 
 
