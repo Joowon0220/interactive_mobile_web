@@ -46,9 +46,9 @@ $(function () {
     var navbar = $(this).scrollTop();
     console.log(navbar);
     if (navbar > 0) {
-      $('.nav_img').attr('src', '../img/main/nav/main_nav_scroll.png');
+      $('.nav_img').attr('src', './img/main/nav/main_nav_scroll.png');
     } else {
-      $('.nav_img').attr('src', '../img/main/nav/main_nav.png');
+      $('.nav_img').attr('src', './img/main/nav/main_nav.png');
     }
   })
 })

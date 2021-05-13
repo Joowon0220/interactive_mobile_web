@@ -82,37 +82,38 @@ nav {
   position: relative;
   float: left;
   margin: 0 20px;
-  top: 0px;
-  right: 13px;
-  width: 100px;
-  height: 56px;
+  top: 11px;
+  right: 1px;
+  width: 96px;
+  height: 33px;
 }
 .nav_li:nth-child(2) {
   position: relative;
   float: left;
   margin: 0 20px;
-  top: 0px;
-  right: 13px;
-  width: 100px;
-  height: 56px;
+  top: 11px;
+  right: -7px;
+  width: 81px;
+  height: 33px;
 }
 .nav_li:nth-child(3) {
   position: relative;
   float: left;
   margin: 0 20px;
-  top: 0px;
-  right: 13px;
+  top: 11px;
+  right: -20px;
   width: 43px;
-  height: 56px;
+  height: 33px;
 }
 .nav_li:nth-child(4) {
   position: relative;
   float: left;
   margin: 0px;
-  top: 0px;
-  right: -19px;
-  width: 144px;
-  height: 56px;
+  top: 5px;
+  right: -44px;
+  width: 140px;
+  height: 46px;
+  border-radius: 24px;
 }
 
 .terms_info {
@@ -123,9 +124,10 @@ nav {
 #main_go_apply {
   position: absolute;
   bottom: 520px;
-  left: 310px;
-  width: 216px;
-  height: 70px;
+  left: 318px;
+  width: 202px;
+  height: 60px;
+  border-radius: 34px;
 }
 #go_apply {
   position: absolute;

@@ -14,12 +14,14 @@
   position: absolute;
   top: 222px;
   left: 320px;
+  border-radius: 33px;
 }
 
 .btn2 {
   position: absolute;
   top: 222px;
   left: 548px;
+  border-radius: 33px;
 }
 
 .info2 {
