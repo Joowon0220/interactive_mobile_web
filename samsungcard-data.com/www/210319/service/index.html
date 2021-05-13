@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+  <?php include $_SERVER['DOCUMENT_ROOT'].'/common_file/common.php'; ?>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="viewport" content="width=540,user-scalable=no" />
+  <meta name="apple-mobile-web-app-title" content="NAVER" />
+  <meta http-equiv="Expires" content="0" />
+  <meta http-equiv="Pragma" content="no-cache" />
+
+  <link rel="stylesheet" href="/common_file/lib/css/reset.css" />
+  <link rel="stylesheet" href="/common_file/lib/css/swiper.min.css" />
+  <link rel="stylesheet" href="/common_file/210319/css/header.css?v=<?php echo $version ?>" />
+  <link rel="stylesheet" href="css/style.css?v=<?php echo $version ?>" />
+
+  <title>DATA SERVICE</title>
+  <script src="https://assets.icatalog.io/imFlow.min.js"></script>
+	<script>
+		var imFlow = new IMFlow(window.location.hostname, '삼성카드 DATA', '210319');
+		imFlow.contentCount('서비스');
+	</script>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/common_file/analytics.html'; ?>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- <img src="img/bg1.jpg" style="position:absolute; top:-8px; z-index: 100; opacity: 0.5;"/> -->
+    <header>
+      <div class="header-fix">
+        <div class="top">
+          <img src="/common_file/210319/image/header/header.png?v=<?php echo $version ?>" class="header" />
+          <div class="logo"></div>
+          <a href="/common_file/210319/data.pdf" download="삼성카드_Data 제안서.pdf" class="pdfBtn click-f" data-name="pdf 다운로드"></a>
+        </div>
+        <div class="top-nav">
+          <div class="nav" data-link="about"></div>
+          <div class="nav on" data-link="service"></div>
+          <div class="nav" data-link="now"></div>
+        </div>
+      </div>
+    </header>
+
+    <article class="contents">
+      <img src="img/bg.png?v=<?php echo $version ?>" alt=""/>
+      <div class="swiper-container">
+        <img src="img/phone/1.png?v=<?php echo $version ?>" alt="" class="phone1"/>
+        <img src="img/phone.png?v=<?php echo $version ?>" alt="" class="phone2"/>
+        <img src="img/num/01.png?v=<?php echo $version ?>" alt="" class="swiper_num"/>
+          <div class="swiper-wrapper">    
+            <div class="swiper-slide">
+              <img src="img/1/D.png?v=<?php echo $version ?>" alt="" class="page1_tit1 alphabet1 op"/>
+              <img src="img/1/a.png?v=<?php echo $version ?>" alt="" class="page1_tit2 alphabet1 op"/>
+              <img src="img/1/t.png?v=<?php echo $version ?>" alt="" class="page1_tit3 alphabet1 op"/>
+              <img src="img/1/a.png?v=<?php echo $version ?>" alt="" class="page1_tit4 alphabet1 op"/>
+              <img src="img/1/cursor.png?v=<?php echo $version ?>" alt="" class="cursor1 op"/>
+              <img src="img/1/tit2.png?v=<?php echo $version ?>" alt="" class="tit1_2 op"/>
+              <img src="img/more.png?v=<?php echo $version ?>" alt="" class="op more_btn1"/>
+              <img src="img/1/img1.png?v=<?php echo $version ?>" alt="" class="img1 img1_1 op"/>
+            </div>   
+            <div class="swiper-slide">
+              <img src="img/2/A.png?v=<?php echo $version ?>" alt="" class="page2_tit1 alphabet2 op"/>
+              <img src="img/2/-n.png?v=<?php echo $version ?>" alt="" class="page2_tit2 alphabet2 op"/>
+              <img src="img/2/-a.png?v=<?php echo $version ?>" alt="" class="page2_tit3 alphabet2 op"/>
+              <img src="img/2/-l.png?v=<?php echo $version ?>" alt="" class="page2_tit4 alphabet2 op"/>
+              <img src="img/2/-y.png?v=<?php echo $version ?>" alt="" class="page2_tit5 alphabet2 op"/>
+              <img src="img/2/-s.png?v=<?php echo $version ?>" alt="" class="page2_tit6 alphabet2 op"/>
+              <img src="img/2/-i.png?v=<?php echo $version ?>" alt="" class="page2_tit7 alphabet2 op"/>
+              <img src="img/2/-s.png?v=<?php echo $version ?>" alt="" class="page2_tit8 alphabet2 op"/>
+              <img src="img/2/I.png?v=<?php echo $version ?>" alt="" class="page2_tit9 alphabet2 op"/>
+              <img src="img/2/-n.png?v=<?php echo $version ?>" alt="" class="page2_tit10 alphabet2 op"/>
+              <img src="img/2/-s.png?v=<?php echo $version ?>" alt="" class="page2_tit11 alphabet2 op"/>
+              <img src="img/2/-i.png?v=<?php echo $version ?>" alt="" class="page2_tit12 alphabet2 op"/>
+              <img src="img/2/-g.png?v=<?php echo $version ?>" alt="" class="page2_tit13 alphabet2 op"/>
+              <img src="img/2/-h.png?v=<?php echo $version ?>" alt="" class="page2_tit14 alphabet2 op"/>
+              <img src="img/2/-t.png?v=<?php echo $version ?>" alt="" class="page2_tit15 alphabet2 op"/>
+              <img src="img/1/cursor.png?v=<?php echo $version ?>" alt="" class="cursor2 op"/>
+              <img src="img/2/tit2.png?v=<?php echo $version ?>" alt="" class="tit2_2 op"/>
+              <img src="img/more.png?v=<?php echo $version ?>" alt="" class="op more_btn2"/>
+              <img src="img/2/img1.png?v=<?php echo $version ?>" alt="" class="img1 img2_1 op"/>
+            </div>  
+            <div class="swiper-slide">
+              <img src="img/3/S.png?v=<?php echo $version ?>" alt="" class="page3_tit1 alphabet3 op"/>
+              <img src="img/3/-u.png?v=<?php echo $version ?>" alt="" class="page3_tit2 alphabet3 op"/>
+              <img src="img/3/-r.png?v=<?php echo $version ?>" alt="" class="page3_tit3 alphabet3 op"/>
+              <img src="img/3/-v.png?v=<?php echo $version ?>" alt="" class="page3_tit4 alphabet3 op"/>
+              <img src="img/3/-e.png?v=<?php echo $version ?>" alt="" class="page3_tit5 alphabet3 op"/>
+              <img src="img/3/-y.png?v=<?php echo $version ?>" alt="" class="page3_tit6 alphabet3 op"/>
+              <img src="img/3/I.png?v=<?php echo $version ?>" alt="" class="page3_tit7 alphabet3 op"/>
+              <img src="img/3/-n.png?v=<?php echo $version ?>" alt="" class="page3_tit8 alphabet3 op"/>
+              <img src="img/3/-s.png?v=<?php echo $version ?>" alt="" class="page3_tit9 alphabet3 op"/>
+              <img src="img/3/-i.png?v=<?php echo $version ?>" alt="" class="page3_tit10 alphabet3 op"/>
+              <img src="img/3/-g.png?v=<?php echo $version ?>" alt="" class="page3_tit11 alphabet3 op"/>
+              <img src="img/3/-h.png?v=<?php echo $version ?>" alt="" class="page3_tit12 alphabet3 op"/>
+              <img src="img/3/-t.png?v=<?php echo $version ?>" alt="" class="page3_tit13 alphabet3 op"/>
+              <img src="img/1/cursor.png?v=<?php echo $version ?>" alt="" class="cursor3 op"/>
+              <img src="img/3/tit2.png?v=<?php echo $version ?>" alt="" class="tit3_2 op"/>
+              <img src="img/more.png?v=<?php echo $version ?>" alt="" class="op more_btn3"/>
+              <img src="img/3/img1.png?v=<?php echo $version ?>" alt="" class="img1 img3_1 op"/>
+            </div>   
+            <div class="swiper-slide">
+              <img src="img/4/S.png?v=<?php echo $version ?>" alt="" class="page4_tit1 alphabet4 op"/>
+              <img src="img/4/-o.png?v=<?php echo $version ?>" alt="" class="page4_tit2 alphabet4 op"/>
+              <img src="img/4/-l.png?v=<?php echo $version ?>" alt="" class="page4_tit3 alphabet4 op"/>
+              <img src="img/4/-u.png?v=<?php echo $version ?>" alt="" class="page4_tit4 alphabet4 op"/>
+              <img src="img/4/-t.png?v=<?php echo $version ?>" alt="" class="page4_tit5 alphabet4 op"/>
+              <img src="img/4/-i.png?v=<?php echo $version ?>" alt="" class="page4_tit6 alphabet4 op"/>
+              <img src="img/4/-o.png?v=<?php echo $version ?>" alt="" class="page4_tit7 alphabet4 op"/>
+              <img src="img/4/-n.png?v=<?php echo $version ?>" alt="" class="page4_tit8 alphabet4 op"/>
+              <img src="img/1/cursor.png?v=<?php echo $version ?>" alt="" class="cursor4 op"/>
+              <img src="img/4/tit2.png?v=<?php echo $version ?>" alt="" class="tit4_2 op"/>
+              <img src="img/more.png?v=<?php echo $version ?>" alt="" class="op more_btn4"/>
+              <img src="img/4/img1.png?v=<?php echo $version ?>" alt="" class="img1 img4_1 op"/>
+            </div> 
+          </div>
+      </div><!--E swiper-container-->
+      <div class="swiper-pagination"></div>
+
+      <section class="alphabet typing1">
+        <img src="img/alphabet/t.png?v=<?php echo $version ?>" alt="" class="t"/>
+        <img src="img/alphabet/e.png?v=<?php echo $version ?>" alt="" class="e"/>
+        <img src="img/alphabet/q.png?v=<?php echo $version ?>" alt="" class="q"/>
+        <img src="img/alphabet/y.png?v=<?php echo $version ?>" alt="" class="y"/>
+      </section>
+      <section class="alphabet typing2">
+        <img src="img/alphabet/t.png?v=<?php echo $version ?>" alt="" class="t"/>
+        <img src="img/alphabet/e.png?v=<?php echo $version ?>" alt="" class="e"/>
+        <img src="img/alphabet/q.png?v=<?php echo $version ?>" alt="" class="q"/>
+        <img src="img/alphabet/y.png?v=<?php echo $version ?>" alt="" class="y"/>
+        <img src="img/alphabet/i.png?v=<?php echo $version ?>" alt="" class="i"/>
+        <img src="img/alphabet/w.png?v=<?php echo $version ?>" alt="" class="w"/>
+        <img src="img/alphabet/u.png?v=<?php echo $version ?>" alt="" class="u"/>
+        <img src="img/alphabet/r.png?v=<?php echo $version ?>" alt="" class="r"/>
+        <img src="img/alphabet/o.png?v=<?php echo $version ?>" alt="" class="o"/>
+        <img src="img/alphabet/p.png?v=<?php echo $version ?>" alt="" class="p"/>
+        <img src="img/alphabet/o.png?v=<?php echo $version ?>" alt="" class="o"/>
+        <img src="img/alphabet/y.png?v=<?php echo $version ?>" alt="" class="y"/>
+        <img src="img/alphabet/w.png?v=<?php echo $version ?>" alt="" class="w"/>
+        <img src="img/alphabet/t.png?v=<?php echo $version ?>" alt="" class="t"/>
+        <img src="img/alphabet/e.png?v=<?php echo $version ?>" alt="" class="e"/>
+      </section>
+      <section class="alphabet typing3">
+        <img src="img/alphabet/e.png?v=<?php echo $version ?>" alt="" class="e"/>
+        <img src="img/alphabet/q.png?v=<?php echo $version ?>" alt="" class="q"/>
+        <img src="img/alphabet/u.png?v=<?php echo $version ?>" alt="" class="u"/>
+        <img src="img/alphabet/y.png?v=<?php echo $version ?>" alt="" class="y"/>
+        <img src="img/alphabet/i.png?v=<?php echo $version ?>" alt="" class="i"/>
+        <img src="img/alphabet/w.png?v=<?php echo $version ?>" alt="" class="w"/>
+        <img src="img/alphabet/y.png?v=<?php echo $version ?>" alt="" class="y"/>
+        <img src="img/alphabet/t.png?v=<?php echo $version ?>" alt="" class="t"/>
+        <img src="img/alphabet/r.png?v=<?php echo $version ?>" alt="" class="r"/>
+        <img src="img/alphabet/e.png?v=<?php echo $version ?>" alt="" class="e"/>
+        <img src="img/alphabet/o.png?v=<?php echo $version ?>" alt="" class="o"/>
+        <img src="img/alphabet/p.png?v=<?php echo $version ?>" alt="" class="p"/>
+        <img src="img/alphabet/o.png?v=<?php echo $version ?>" alt="" class="o"/>
+      </section>
+      <section class="alphabet typing4">
+        <img src="img/alphabet/e.png?v=<?php echo $version ?>" alt="" class="e"/>
+        <img src="img/alphabet/q.png?v=<?php echo $version ?>" alt="" class="q"/>
+        <img src="img/alphabet/u.png?v=<?php echo $version ?>" alt="" class="u"/>
+        <img src="img/alphabet/y.png?v=<?php echo $version ?>" alt="" class="y"/>
+        <img src="img/alphabet/i.png?v=<?php echo $version ?>" alt="" class="i"/>
+        <img src="img/alphabet/w.png?v=<?php echo $version ?>" alt="" class="w"/>
+        <img src="img/alphabet/y.png?v=<?php echo $version ?>" alt="" class="y"/>
+        <img src="img/alphabet/t.png?v=<?php echo $version ?>" alt="" class="t"/>
+      </section>
+    </article>
+
+  </div>
+
+  <script src="/common_file/lib/js/polyfill.js?v=<?php echo $version ?>"></script>
+  <script src="/common_file/lib/js/jquery-3.3.1.min.js"></script>
+  <script src="/common_file/lib/js/swiper.min.js"></script>
+  <script src="/common_file/lib/js/TweenMax.min.js"></script>
+  <script src="/common_file/lib/js/ScrollMagic.js"></script>
+  <script src="/common_file/lib/js/animation.gsap.js"></script>
+  <script src="/common_file/210319/js/header.js?v=<?php echo $version ?>"></script>
+  <script src="js/motion.js?v=<?php echo $version ?>"></script>
+  <script src="js/main.js?v=<?php echo $version ?>"></script>
+</body>
+
+</html>

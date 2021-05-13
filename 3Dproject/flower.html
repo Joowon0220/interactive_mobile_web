@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flower</title>
+  <style>
+    .petal{
+      width: 200px;
+      /* background-color: red; */
+    }
+    button {
+      background-color: pink;
+      width:50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-left: 100px;
+      margin-top: -30px;
+      border: none;
+    }
+    .petal > img {
+      position: absolute;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="petal">
+    <img src="ww.png" alt="petal" id="pe">
+    <button id="flower"></button>
+  </div>
+  <script>
+    var f_btn = document.getElementById('flower');
+    var rotate = 20;
+    f_btn.addEventListener('click', function(){
+      document.querySelector('.petal').insertAdjacentHTML('beforeend','<img src="ww.png" alt="petal" id="pe" style="transform:rotate('+rotate+'deg)">');
+      rotate += 20;
+    });
+
+  </script>
+</body>
+</html>

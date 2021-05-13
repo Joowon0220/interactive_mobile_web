@@ -1,0 +1,478 @@
+html, body {
+    width: 540px;
+    margin: 0 auto;
+}
+  
+img{
+    display: block
+}
+
+.wrapper {
+    width: 540px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contents{
+    position: relative;
+    width: 540px;
+    height: 9174px;
+    margin-top: -70px;
+    padding-top: 140px;
+    box-sizing: border-box;
+    background: url(../img/bg.png?v=2) no-repeat;
+}
+
+section{
+    position: relative;
+}
+
+section img{
+    position: absolute;
+}
+
+section>div{
+    position: relative
+}
+
+.op{
+    opacity: 0;
+}
+
+.section1{
+    height: 603px;
+}
+.section1 div.graph{
+    position:relative;
+    top: 390px;
+    left: 202px;
+}
+.section1 div.graph img{
+    bottom: 0
+}
+.graph_1{
+    left: 2px;
+    clip: rect(42px 30px 107px 0px);
+}
+.graph_2{
+    left: 20px;
+    clip: rect(58px 30px 107px 0px);
+}
+.graph_3{
+    left: 38px;
+    clip: rect(54px 30px 107px 0px);
+}
+.graph_4{
+    left: 56px;
+    clip: rect(74px 30px 107px 0px);
+}
+.graph_5{
+    left: 75px;
+    clip: rect(93px 30px 107px 0px);
+}
+.graph_6{
+    left: 93px;
+    clip: rect(88px 30px 107px 0px);
+}
+.graph_7{
+    left: 112px;
+    clip: rect(102px 30px 107px 0px);
+}
+.graph_8{
+    left: 131px;
+    clip: rect(107px 30px 107px 0px);
+}
+.graph_9{
+    left: 149px;
+    clip: rect(78px 30px 107px 0px);
+}
+.graph_10{
+    left: 168px;
+    clip: rect(107px 30px 107px 0px);
+}
+.graph_11{
+    left: 187px;
+    clip: rect(61px 30px 107px 0px);
+}
+.graph_12{
+    left: 206px;
+    clip: rect(49px 30px 107px 0px);
+}
+.s1_0{
+    top: 240px;
+    left: 185px;
+}
+.s1_1{
+    top: 385px;
+    left: 188px;
+}
+.s1_2{
+    top: 287px;
+    left: 374px;
+}
+.s1_3{
+    top: 228px;
+    left: 181px;
+}
+.s1_4{
+    top: 250px;
+    left: 390px;
+}
+
+.tri{
+    width: 540px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    border-left: 540px solid transparent;
+    border-bottom: 115px solid #fff;
+}
+
+.section2{
+    height: 1159px;
+}
+.swiper-container {
+    position: absolute;
+    top: 140px;
+    width: 540px;
+    height: 100%;
+    padding: 0 30px;
+}
+.swiper-wrapper{
+    width: 100%;
+    height: 100%
+}
+.swiper-slide {
+    position: relative;
+}
+
+.section3{    
+    height: 1716px;
+}
+.section3_1{
+    height: 440px;
+}
+.s3_1{
+    top: 385px;
+    left: 69px;
+}
+.s3_2{
+    top: 207px;
+    left: 197px;
+}
+.s3_3{
+    top: 207px;
+    left: 287px;
+}
+.s3_4{
+    top: 264px;
+    left: 118px;
+    clip: rect(0px 0px 92px 0px);
+}
+.s3_5{
+    top: 287px;
+    left: 115px;
+    clip: rect(0px 0px 45px 0px);
+}
+.section3_2{
+    height: 300px;
+}
+.s3_6{
+    top: 19px;
+    left: 167px;
+}
+.s3_7{
+    top: 69px;
+    left: 64px;
+}
+.s3_8{
+    top: 85px;
+    left: 145px;
+    clip: rect(0px 0px 35px 0px);
+}
+.s3_9{
+    top: 135px;
+    left: 145px;
+    clip: rect(0px 0px 35px 0px);
+}
+.s3_10{
+    top: 185px;
+    left: 145px;
+    clip: rect(0px 0px 35px 0px);
+}
+.s3_11{
+    top: 235px;
+    left: 145px;
+    clip: rect(0px 0px 35px 0px);
+}
+.s3_12{
+    top: 17px;
+    left: 166px;
+}
+.s3_13{
+    top: 67px;
+    left: 64px;
+}
+.s3_14{
+    top: 85px;
+    left: 145px;
+    clip: rect(0px 0px 35px 0px);
+}
+.s3_15{
+    top: 135px;
+    left: 145px;
+    clip: rect(0px 0px 35px 0px);
+}
+.s3_16{
+    top: 185px;
+    left: 145px;
+    clip: rect(0px 0px 35px 0px);
+}
+.s3_17{
+    top: 235px;
+    left: 145px;
+    clip: rect(0px 0px 35px 0px);
+}
+
+.section4{
+    height: 1960px;
+}
+.section4_1{
+    height: 529px;
+}
+.s4_1{
+    top: 191px;
+    left: 74px;
+}
+.s4_2{
+    top: 443px;
+    left: 278px;
+}
+.s4_3{
+    top: 397px;
+    left: 185px;
+}
+.s4_4{
+    top: 400px;
+    left: 360px;
+}
+.s4_5{
+    top: 343px;
+    left: 209px;
+}
+.s4_6{
+    top: 313px;
+    left: 239px;
+}
+.s4_7{
+    top: 294px;
+    left: 325px;
+}
+.s4_8{
+    top: 251px;
+    left: 348px;
+}
+.s4_9{
+    top: 88px;
+    left: 109px;
+}
+.s4_10{
+    top: 382px;
+    left: 112px;
+}
+
+.section5{
+    height: 1578px;
+}
+.section5_1{
+    height: 485px;
+}
+.s5_1{
+    top: 193px;
+    left: 72px;
+}
+.s5_2{
+    top: 241px;
+    left: 61px;
+}
+.s5_3{
+    top: 310px;
+    left: 100px;
+    clip: rect(0px 0px 153px 0px);
+}
+.s5_4{
+    top: 285px;
+    left: 100px;
+    clip: rect(0px 0px 57px 0px);
+}
+.s5_5{
+    top: 400px;
+    left: 200px;
+}
+
+.section5_2{
+    padding-top: 94px;
+}
+.s5_6{
+    top: 73px;
+    left: 60px;
+}
+.section5_2 div{
+    height: 30px;
+    opacity: 0;
+}
+.s5_man{
+    left: 100px;
+}
+.s5_h1{
+    left: 160px;
+}
+.s5_h2{
+    left: 190px;
+}
+.s5_h3{
+    left: 220px;
+}
+.s5_h4{
+    left: 250px;
+}
+.s5_h5{
+    left: 280px;
+}
+.s5_graph{
+    left: 326px;
+}
+.s5_graph2,.s5_graph3{
+    clip: rect(0px 0px 26px 0px);
+}
+
+.section6{
+    padding-top: 155px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.section6 div{
+    width: 460px;
+    height: 560px;
+    margin-bottom: 40px;
+}
+
+.bottom_txt{
+    bottom:0;
+}
+.s6_1_1{
+    top: 40px;
+    left: 88px;
+}
+.s6_1_2{
+    top: 44px;
+    left: 260px;
+}
+.s6_1_3{
+    top: 150px;
+    left: 64px;
+}
+.s6_1_4{
+    top: 130px;
+    left: 295px;
+}
+.s6_1_5{
+    top: 264px;
+    left: 160px;
+}
+.s6_1_6{
+    top: 10px;
+    left: 325px;
+}
+.s6_1_7{
+    top: 40px;
+    left: 75px;
+}
+
+.s6_2_1{
+    top: 25px;
+    left: 68px;
+}
+.s6_2_2{
+    top: 138px;
+    left: 70px;
+}
+.s6_2_3 {
+    top: 106px;
+    left: 255px;
+}
+.s6_2_4{
+    top: 127px;
+    left: 202px;
+}
+.s6_2_5{
+    top: 73px;
+    left: 230px;
+}
+.s6_2_6{
+    top: 153px;
+    left: 133px;
+}
+.s6_2_7{
+    top: 194px;
+    left: 290px;
+}
+.s6_2_8{
+    top: 65px;
+    left: 93px;
+}
+.s6_2_9{
+    top: 189px;
+    left: 225px;
+}
+.s6_2_10{
+    top: 220px;
+    left: 330px;
+}
+.s6_2_11{
+    top: 71px;
+    left: 100px;
+    clip: rect(0px 0px 22px 0px);
+}
+.s6_2_12{
+    top: 196px;
+    left: 233px;
+    clip: rect(0px 0px 22px 0px);
+}
+.s6_2_13{
+    top: 228px;
+    left: 338px;
+    clip: rect(0px 0px 22px 0px);
+}
+
+.s6_3_1{
+    top: 50px;
+    left: 92px;
+}
+.s6_3_2{
+    top: 140px;
+    left: 209px;
+    transform-origin: left bottom;
+}
+.s6_3_3{
+    top: 150px;
+    left: 84px;
+}
+.s6_3_4{
+    top: 95px;
+    left: 226px;
+}
+.s6_3_5{
+    top: 146px;
+    left: 234px;
+}
+.s6_3_6{
+    top: 231px;
+    left: 299px;
+}
+.s6_3_7{
+    top: 50px;
+    left: 336px;
+}

@@ -1,0 +1,445 @@
+html, body {
+    width: 540px;
+    margin: 0 auto;
+}
+  
+img{
+    display: block
+}
+
+.wrapper {
+    width: 540px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contents{
+    position: relative;
+    width: 540px;
+    height: 11231px;
+    margin-top: -70px;
+    padding-top: 140px;
+    box-sizing: border-box;
+    background: url(../img/bg.png?v=2) no-repeat;
+}
+
+section{
+    position: relative;
+}
+
+section img{
+    position: absolute;
+}
+
+section>div{
+    position: relative
+}
+
+.op{
+    opacity: 0;
+}
+
+.section1{
+    height: 603px;
+}
+.s1_1{
+    top: 330px;
+    left: 398px;
+}
+.s1_2{
+    top: 470px;
+    left: 348px;
+}
+.s1_3{
+    top: 324px;
+    left: 165px;
+}
+.s1_4{
+    top: 459px;
+    left: 196px;
+}
+.s1_5{
+    top: 240px;
+    left: 219px;
+}
+.s1_6{
+    top: 320px;
+    left: 226px;
+}
+.s1_7{
+    top: 250px;
+    left: 167px;
+}
+.s1_8{
+    top: 282px;
+    left: 400px;
+}
+
+.tri{
+    width: 540px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    border-left: 540px solid transparent;
+    border-bottom: 115px solid #fff;
+}
+
+.section2{
+    height: 1180px;
+}
+.swiper-container {
+    position: absolute;
+    top: 142px;
+    width: 540px;
+    height: 100%;
+    padding: 0 30px;
+}
+.swiper-wrapper{
+    width: 100%;
+    height: 100%
+}
+.swiper-slide {
+    position: relative;
+}
+
+.section3{
+    height: 2093px;
+}
+
+.section3_1{
+    height: 630px;
+}
+
+.s3_table{
+    top: 294px;
+    left: 70px;
+}
+.s3_1{
+    top: 334px;
+    left: 140px;
+    clip: rect(160px 40px 193px 0px);
+}
+.s3_2{
+    top: 334px;
+    left: 190px;
+    clip: rect(160px 40px 193px 0px);
+}
+.s3_3{
+    top: 334px;
+    left: 240px;
+    clip: rect(160px 40px 193px 0px);
+}
+.s3_4{
+    top: 334px;
+    left: 330px;
+    clip: rect(160px 40px 193px 0px);
+}
+.s3_5{
+    top: 334px;
+    left: 380px;
+    clip: rect(160px 40px 193px 0px);
+}
+.s3_6{
+    top: 334px;
+    left: 430px;
+    clip: rect(160px 40px 193px 0px);
+}
+.s3_7{
+    top: 565px;
+    left: 141px;
+}
+.s3_8{
+    top: 568px;
+    left: 326px;
+}
+.s3_9{
+    top: 144px;
+    left: 115px;
+}
+.s3_10{
+    top: 411px;
+    left: 115px;
+}
+.s3_11{
+    top: 143px;
+    left: 60px;
+}
+.s3_12{
+    top: 234px;
+    left: 50px;
+}
+
+.section4{
+    height: 2330px;
+}
+.section4_1{
+    height: 321px;
+}
+.s4_tit{
+    top: 186px;
+    left: 140px;
+}
+.s4_1{
+    top: 224px;
+    left: 60px
+}
+.s4_2{
+    top: 270px;
+    left: 105px;
+}
+
+.section4_2{
+    top: 63px;
+    width: 420px;
+    margin: 0 auto;
+    height: 503px;
+    background: url(../img/04/2/table.png) center 27px no-repeat;
+}
+.section4_2 img{
+    position: relative;
+    margin-bottom: 40px;
+}
+.s4_tit2{
+    top: -15px;
+    left: 15px;
+    margin-bottom: 85px !important;
+}
+.s4_4{
+    left: 0;
+    position:absolute;
+}
+.s4_2_1{
+    left: 36px;
+}
+.s4_2_2{
+    left: 35px;
+}
+.s4_2_3{
+    left: 18px;
+}
+.s4_2_4{
+    left: 45px;
+}
+.s4_2_5{
+    left: 16px;
+}
+.s4_2_6{
+    left: 44px;
+}
+.s4_21{
+    top: 147px;
+    left: 82px;
+}
+.s4_22{
+    top: 147px;
+    left: 189px;
+}
+.s4_23{
+    top: 147px;
+    left: 295px;
+}
+.s4_24{
+    top: 147px;
+    left: 400px;
+}
+
+.s4_table{
+    top: 340px;
+    left: 77px;
+}
+.s4_tit3{
+    top: 89px;
+    left: 187px;
+}
+.s4_tit4 {
+    top: 272px;
+    left: 131px;
+}
+.s4_11{
+    top: 128px;
+    left: 62px;
+}
+.s4_12{
+    top: 347px;
+    left: 157px;
+    clip: rect(0px 0px 63px 0px);
+}
+.s4_14{
+    top: 347px;
+    left: 157px;
+    clip: rect(0px 0px 79px 0px);
+}
+.s4_16{
+    top: 347px;
+    left: 157px;
+    clip: rect(0px 0px 162px 0px);
+}
+.s4_18{
+    top: 347px;
+    left: 157px;
+    clip: rect(0px 0px 179px 0px);
+}
+
+.section5{
+    height: 1593px;
+}
+.section5_1{
+    height: 555px;
+}
+.s5_1_table{
+    top: 235px;
+    left: 62px;
+}
+.s5_1_table_2{
+    top: 379px;
+    left: 104px;
+}
+.s5_1_graph{
+    top: 326px;
+    left: 104px;
+    clip: rect(28px 315px 38px 0px);
+}
+.s5_1_1{
+    top: 300px;
+    left: 108px;
+    clip: rect(0px 0px 146px 0px);
+}
+.s5_1_2{
+    top: 334px;
+    left: 107px;
+    clip: rect(0px 0px 106px 0px);
+}
+.s5_1_3{
+    top: 333px;
+    left: 105px;
+    clip: rect(0px 0px 102px 0px);
+}
+.s5_2_table{
+    top: 69px;
+    left: 53px;
+}
+.s5_2_table_2{
+    top: 250px;
+    left: 114px;
+}
+.s5_2_graph{
+    top: 113px;
+    left: 115px;
+    clip: rect(111px 315px 121px 0px);
+}
+.s5_2_1{
+    top: 182px;
+    left: 117px;
+    clip: rect(0px 0px 100px 0px);
+}
+.s5_2_2{
+    top: 162px;
+    left: 116px;
+    clip: rect(0px 0px 106px 0px);
+}
+.s5_2_3{
+    top: 126px;
+    left: 119px;
+    clip: rect(0px 0px 146px 0px);
+}
+.s5_txt{
+    top: 127px;
+    left: 68px;
+}
+
+.section6{
+    height: 1486px;
+}
+.s6_1{
+    top: 131px;
+    left: 60px;
+}
+.s6_2{
+    top: 632px;
+    left: 60px;
+}
+.s6_3{
+    top: 703px;
+    left: 60px;
+}
+
+.section7_1{
+    height: 920px;
+}
+.s7_1{
+    top: 118px;
+    left: 60px;
+}
+.s7_2{
+    top: 644px;
+    left: 69px;
+}
+.s7_3{
+    top: 650px;
+    left: 118px;
+    clip: rect(0px 0px 30px 0px);
+}
+.s7_4{
+    top: 684px;
+    left: 118px;
+    clip: rect(0px 0px 30px 0px);
+}
+.s7_5{
+    top: 650px;
+    left: 352px;
+    clip: rect(0px 0px 30px 0px);
+}
+.s7_6{
+    top: 684px;
+    left: 352px;
+    clip: rect(0px 0px 30px 0px);
+}
+.s7_7{
+    top: 681px;
+    left: 180px;
+}
+.s7_8{
+    top: 751px;
+    left: 136px;
+}
+.s7_9{
+    top: 708px;
+    left: 180px;
+}
+.s7_10{
+    top: 546px;
+    left: 62px;
+}
+.s7_11{
+    top: 586px;
+    left: 62px;
+}
+.s7_12{
+    top: 644px;
+    left: 289px;
+}
+
+.swiper-container2{
+    top: 75px;
+    width: 490px;
+    margin: 0 auto;
+}
+
+.swiper-container2 .swiper-slide{
+    width:210px;
+    height: 100%;
+}
+.swiper-container2 .swiper-slide:nth-child(2),
+.swiper-container2 .swiper-slide:nth-child(4){
+    width:80px;
+    height: 306px;
+}
+.swiper-container2 .swiper-slide:nth-child(2) img,
+.swiper-container2 .swiper-slide:nth-child(4) img{
+    top: 110px;
+}
+
+.baltxt{
+    top: -12px !important
+}

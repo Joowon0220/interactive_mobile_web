@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+  <?php include $_SERVER['DOCUMENT_ROOT'].'/common_file/common.php'; ?>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="viewport" content="width=540,user-scalable=no" />
+  <meta name="apple-mobile-web-app-title" content="NAVER" />
+  <meta http-equiv="Expires" content="0" />
+  <meta http-equiv="Pragma" content="no-cache" />
+
+  <link rel="stylesheet" href="/common_file/lib/css/reset.css" />
+  <link rel="stylesheet" href="/common_file/lib/css/swiper.min.css" />
+  <link rel="stylesheet" href="/common_file/210319/css/header.css?v=<?php echo $version ?>" />
+  <link rel="stylesheet" href="css/style.css?v=<?php echo $version ?>" />
+
+  <title>DATA SERVICE</title>
+  <script src="https://assets.icatalog.io/imFlow.min.js"></script>
+	<script>
+		var imFlow = new IMFlow(window.location.hostname, '삼성카드 DATA', '210319');
+		imFlow.contentCount('sub-데이터');
+	</script>
+
+<?php include $_SERVER['DOCUMENT_ROOT'].'/common_file/analytics.html'; ?>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- <img src="img/bg.jpg" style="position:absolute; top:0px; z-index: 1; opacity: 0.5;"/> -->
+
+    <header class="sub_header">
+      <div class="header-fix">
+        <div class="sub_top">
+          <img src="/common_file/210319/image/header/top1.png?v=<?php echo $version ?>" class="header" />
+          <div class="backBtn"></div>
+        </div>
+      </div>
+    </header>
+
+    <article class="contents">
+      <section class="section1">
+        <img src="img/01/line.png?v=<?php echo $version ?>" alt="" class="s1_line1"/>
+        <img src="img/01/line2.png?v=<?php echo $version ?>" alt="" class="s1_line2"/>
+        <img src="img/01/1.png?v=<?php echo $version ?>" alt="" class="s1icon s1_1"/>
+        <img src="img/01/2.png?v=<?php echo $version ?>" alt="" class="s1icon s1_2"/>
+        <img src="img/01/3.png?v=<?php echo $version ?>" alt="" class="s1icon s1_3"/>
+        <img src="img/01/4.png?v=<?php echo $version ?>" alt="" class="s1icon s1_4"/>
+        <img src="img/01/5.png?v=<?php echo $version ?>" alt="" class="s1icon s1_5"/>
+        <img src="img/01/6.png?v=<?php echo $version ?>" alt="" class="s1icon s1_6"/>
+        <img src="img/01/7.png?v=<?php echo $version ?>" alt="" class="s1icon s1_7"/>
+        <img src="img/01/8.png?v=<?php echo $version ?>" alt="" class="s1icon s1_8"/>
+        <img src="img/01/9.png?v=<?php echo $version ?>" alt="" class="s1icon s1_9"/>
+        <img src="img/01/light.png?v=<?php echo $version ?>" alt="" class="s1_light op"/>
+        <div class="tri"></div>
+      </section>
+
+      <section class="section2">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">    
+            <div class="swiper-slide">
+              <img src="img/02/01.png?v=<?php echo $version ?>" alt=""/>
+            </div>   
+            <div class="swiper-slide">
+              <img src="img/02/02.png?v=<?php echo $version ?>" alt=""/>
+            </div>   
+            <div class="swiper-slide">
+              <img src="img/02/03.png?v=<?php echo $version ?>" alt=""/>
+            </div>    
+          </div>
+        </div>
+      </section>
+
+      <section class="section3">
+        <ul class="s3_tab">
+          <li class="tab_early on"></li>
+          <li class="tab_premium"></li>
+        </ul>
+        <div class="s3_tab_img">
+          <img src="img/03/03-1.png" alt="" class="early"/>
+          <img src="img/03/03-2.png" alt="" class="premium op"/>
+        </div>
+      </section>
+
+      <section class="section4">
+        <ul class="s4_tab">
+          <li class="tab_customer on"></li>
+          <li class="tab_shop"></li>
+        </ul>
+        <div class="s4_tab_img">
+          <img src="img/04/04-1.png" alt="" class="customer"/>
+          <img src="img/04/04-2.png" alt="" class="shop op"/>
+        </div>
+      </section>
+
+      <section class="section5">
+        <img src="img/05/1.png?v=<?php echo $version ?>" alt="" class="s5_1 op"/>
+        <img src="img/05/4.png?v=<?php echo $version ?>" alt="" class="s5_2 op"/>
+        <img src="img/05/2.png?v=<?php echo $version ?>" alt="" class="s5_3 op"/>
+        <img src="img/05/3.png?v=<?php echo $version ?>" alt="" class="s5_4 op"/>
+        <img src="img/05/5.png?v=<?php echo $version ?>" alt="" class="s5_5 op"/>
+        <img src="img/05/4-2.png?v=<?php echo $version ?>" alt="" class="s5_6 op"/>
+      </section>
+    </article>
+
+  </div>
+
+  <script src="/common_file/lib/js/polyfill.js?v=<?php echo $version ?>"></script>
+  <script src="/common_file/lib/js/jquery-3.3.1.min.js"></script>
+  <script src="/common_file/lib/js/swiper.min.js"></script>
+  <script src="/common_file/lib/js/TweenMax.min.js"></script>
+  <script src="/common_file/lib/js/ScrollMagic.js"></script>
+  <script src="/common_file/lib/js/animation.gsap.js"></script>
+  <script src="/common_file/210319/js/subheader.js?v=<?php echo $version ?>"></script>
+  <script src="js/motion.js?v=<?php echo $version ?>"></script>
+  <script src="js/main.js?v=<?php echo $version ?>"></script>
+</body>
+
+</html>

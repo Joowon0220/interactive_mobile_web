@@ -1,0 +1,109 @@
+header ul li{
+    float: left;
+}
+
+header {
+    position: relative;
+    z-index: 10;
+    height: 133px;
+    background: #fff;
+}
+
+.sub_header {
+    position: relative;
+    z-index: 10;
+    height: 70px;
+}
+
+.header-fix{
+    position: fixed;
+}
+
+.sub_top{
+    position: relative;
+    height: 70px;
+    background: #fff;
+}
+
+.top{
+    position: relative;
+    height: 90px;
+    background: #fff;
+}
+
+.logo{
+    position: absolute;
+    width: 250px;
+    height: 91px;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.backBtn{
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    cursor: pointer;
+}
+
+.pdfBtn{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.top-nav {
+    position: absolute;
+    width: 540px;
+    height: 66px;
+    left: 0px;
+    top: 88px;
+    cursor: pointer;
+    background: url(/common_file/210319/image/header/nav_bg.png?v=3) center no-repeat;
+}
+
+.nav{
+    position: relative;
+    width: 127px;
+    height: 66px;
+    float: left;
+}
+
+.nav:nth-child(1){
+    background: url(/common_file/210319/image/header/nav1_off.png?v=3) center 23px no-repeat;
+}
+
+.nav:nth-child(2){
+    background: url(/common_file/210319/image/header/nav2_off.png?v=3) center 23px no-repeat;
+}
+
+.nav:nth-child(3){
+    background: url(/common_file/210319/image/header/nav3_off.png?v=3) center 24px no-repeat;
+}
+
+
+.nav:nth-child(1).on{
+    background: url(/common_file/210319/image/header/nav1_on.png?v=3) center 23px no-repeat;
+}
+
+.nav:nth-child(2).on{
+    background: url(/common_file/210319/image/header/nav2_on.png?v=3) center 23px no-repeat;
+}
+
+.nav:nth-child(3).on{
+    background: url(/common_file/210319/image/header/nav3_on.png?v=3) center 24px no-repeat;
+}
+
+.sub_title{
+    position: absolute;
+    top: 33px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

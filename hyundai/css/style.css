@@ -1,0 +1,156 @@
+@import url(./../common/css/common.css);
+
+/*================== 
+sub 2
+ ==================*/
+
+.main-container {
+  background-image: url(../images/bg.png);
+  width: 540px;
+  height: 1526px;
+  overflow: hidden;
+}
+
+.hello {
+  width: 540px;
+  height: auto;
+  top: 126px;
+  background-color: white;
+}
+
+.hello ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+.main-container div {
+  position: relative;
+}
+
+.main-container img {
+  position: absolute;
+}
+
+.topBox {
+  top: 160px
+}
+
+.topBox img {
+  left: 50%;
+}
+
+.title {
+  margin-left: -173px;
+}
+
+.main_img {
+  top: 190px;
+  margin-left: -241px;
+}
+
+.nameBox {
+  top: 510px;
+}
+
+.name1 {
+  left: 60px;
+}
+
+.name2 {
+  top: 60px;
+  left: 380px;
+}
+
+.name3 {
+  top: 220px;
+  left: 50px;
+}
+
+.name4 {
+  top: 260px;
+  left: 420px;
+}
+
+.name {
+  margin-top: 20px;
+  opacity: 0;
+}
+
+.carBox {
+  top: 570px;
+}
+
+.car1 {
+  left: 20px;
+}
+
+.car2 {
+  top: 60px;
+  left: 220px;
+}
+
+.car3 {
+  top: 190px;
+  left: 30px;
+}
+
+.car4 {
+  top: 260px;
+  left: 230px;
+}
+
+.car {
+  margin-left: 50px;
+  opacity: 0;
+}
+
+.sub_txt {
+  top: 1010px;
+  left: 50%;
+  margin-left: -160px;
+}
+
+.contentBox {
+  top: 1070px;
+}
+
+.plus {
+  top: 130px;
+  left: 50%;
+  margin-left: -25px;
+}
+
+.img1_1 {
+  top: 30px;
+  left: 45px;
+  opacity: 0;
+}
+
+.img1_2 {
+  top: 34px;
+  left: 115px;
+  opacity: 0;
+}
+
+.img2 {
+  left: 305px;
+  opacity: 0;
+}
+
+.txt1 {
+  left: 54px;
+  top: 230px;
+  opacity: 0;
+}
+
+.txt2 {
+  top: 230px;
+  left: 324px;
+  opacity: 0;
+}
+
+.back {
+  top: 1430px;
+  left: 50%;
+  margin-left: -63px;
+}

@@ -1,0 +1,361 @@
+html, body {
+    width: 540px;
+    margin: 0 auto;
+}
+  
+img{
+    display: block
+}
+
+.wrapper {
+    width: 540px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contents{
+    position: relative;
+    margin-top: -140px;
+}
+
+section img{
+    position: absolute;
+}
+
+.op{
+    opacity: 0;
+}
+
+.swiper-container {
+    position: absolute;
+    bottom: 0;
+    width: 395px;
+    height: 665px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.swiper-slide {
+    position: relative;
+    width: 367px;
+    height: 612px;
+}
+
+.swiper-pagination{
+    top: 470px;
+    right: 40px;
+}
+
+.swiper-pagination-bullet {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    margin:12px 0 !important
+}
+.swiper-pagination-bullet-active {
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.phone1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.phone2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.swiper_num{
+    position: absolute;
+    top: 12px;
+    right: 17px;
+    z-index: 2;
+}
+
+.swiper-slide img{
+    position: absolute;
+}
+
+.tit1_2{
+    top: 210px;
+    left: 45px;
+}
+
+.tit2_2{
+    top: 293px;
+    left: 50px;
+}
+
+.tit3_2{
+    top: 293px;
+    left: 50px;
+}
+
+.tit4_2{
+    top: 210px;
+    left: 50px;
+}
+
+.img1_1{
+    top: 302px;
+    left: 118px;
+}
+.img2_1{
+    top: 360px;
+    left: 170px;
+}
+.img3_1{
+    top: 360px;
+    left: 170px;
+}
+.img4_1{
+    top: 336px;
+    left: 150px;
+}
+
+section.alphabet{
+    position: absolute;
+    left: 102px;
+    z-index: 5;
+}
+
+section.alphabet img{
+    position: absolute;
+    bottom: 20px;
+    opacity: 0;
+}
+.q{
+    left:0px;
+}
+.w{
+    left:33px;
+}
+.e{
+    left: 67px;
+}
+.r{
+    left: 101px;
+}
+.t{
+    left: 134px;
+}
+.y{
+    left: 168px;
+}
+.u{
+    left: 202px;
+}
+.i{
+    left: 236px;
+}
+.o{
+    left: 270px;
+}
+.p{
+    left: 305px;
+}
+.more_btn1{
+    top: 260px;
+    left: 48px;
+}
+.more_btn2{
+    top: 350px;
+    left: 48px;
+}
+.more_btn3{
+    top: 350px;
+    left: 48px;
+}
+.more_btn4{
+    top: 260px;
+    left: 48px;
+}
+/*알파벳 텍스트*/
+.page1_tit1{
+    top: 130px;
+    left: 47px;
+}
+.page1_tit2{
+    top: 142px;
+    left: 87px;
+}
+.page1_tit3{
+    top: 134px;
+    left: 120px;
+}
+.page1_tit4{
+    top: 142px;
+    left: 142px;
+}
+.cursor1{
+    top: 126px;
+    left: 178px;
+}
+.page2_tit1{
+    top: 131px;
+    left: 44px;
+}
+.page2_tit2{
+    top: 142px;
+    left: 90px;
+}
+.page2_tit3{
+    top: 142px;
+    left: 124px;
+}
+.page2_tit4{
+    top: 128px;
+    left: 160px;
+}
+.page2_tit5{
+    top: 142px;
+    left: 173px;
+}
+.page2_tit6{
+    top: 142px;
+    left: 205px;
+}
+.page2_tit7{
+    top: 129px;
+    left: 240px;
+}
+.page2_tit8{
+    top: 142px;
+    left: 254px;
+}
+.page2_tit9{
+    top: 201px;
+    left: 48px;
+}
+.page2_tit10{
+    top: 212px;
+    left: 64px;
+}
+.page2_tit11{
+    top: 212px;
+    left: 98px;
+}
+.page2_tit12{
+    top: 200px;
+    left: 133px;
+}
+.page2_tit13{
+    top: 212px;
+    left: 148px;
+}
+.page2_tit14{
+    top: 198px;
+    left: 185px;
+}
+.page2_tit15{
+    top: 204px;
+    left: 218px;
+}
+.cursor2{
+    top: 197px;
+    left: 243px;
+}
+
+
+.page3_tit1{
+    top: 130px;
+    left: 45px;
+}
+.page3_tit2{
+    top: 142px;
+    left: 86px;
+}
+.page3_tit3{
+    top: 142px;
+    left: 122px;
+}
+.page3_tit4{
+    top: 142px;
+    left: 141px;
+}
+.page3_tit5{
+    top: 142px;
+    left: 175px;
+}
+.page3_tit6{
+    top: 142px;
+    left: 208px;
+}
+.page3_tit7{
+    top: 200px;
+    left: 48px;
+}
+.page3_tit8{
+    top: 212px;
+    left: 64px;
+}
+.page3_tit9{
+    top: 212px;
+    left: 98px;
+}
+.page3_tit10{
+    top: 200px;
+    left: 133px;
+}
+.page3_tit11{
+    top: 212px;
+    left: 148px;
+}
+.page3_tit12{
+    top: 198px;
+    left: 185px;
+}
+.page3_tit13{
+    top: 204px;
+    left: 218px;
+}
+.cursor3{
+    top: 198px;
+    left: 243px;
+}
+
+.page4_tit1{
+    top: 130px;
+    left: 45px;
+}
+.page4_tit2{
+    top: 142px;
+    left: 86px;
+}
+.page4_tit3{
+    top: 128px;
+    left: 123px;
+}
+.page4_tit4{
+    top: 142px;
+    left: 138px;
+}
+.page4_tit5{
+    top: 133px;
+    left: 171px;
+}
+.page4_tit6{
+    top: 130px;
+    left: 195px;
+}
+.page4_tit7{
+    top: 141px;
+    left: 210px;
+}
+.page4_tit8{
+    top: 142px;
+    left: 247px;
+}
+.cursor4{
+    top: 126px;
+    left: 282px;
+}
