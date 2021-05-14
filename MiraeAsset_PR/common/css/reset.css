@@ -62,8 +62,41 @@ nav {
   width: 1920px;
   height: 80px;
   top: 0;
-  z-index: 3;
+  z-index: 99;
+  /* overflow: hidden; */
 }
+
+.nav_apply {
+  position: relative;
+  left: -20px;
+  top: -360px;
+}
+
+.nav_btn {
+  position: relative;
+  left: -20px;
+  top: -216px;
+  width: 182px;
+  height: 137px;
+  z-index: 99;
+  background-image: url("../img/nav_apply.png");
+}
+
+#online {
+  position: relative;
+  width: 139px;
+  height: 38px;
+  top: 27px;
+  z-index: 99;
+}
+#visit {
+  position: relative;
+  width: 139px;
+  height: 41px;
+  top: 24px;
+  z-index: 99;
+}
+
 .logo {
   position: absolute;
   top: 20px;
@@ -189,4 +222,19 @@ nav {
 }
 .footer {
   height: 834px;
+}
+
+.sns {
+  position: relative;
+  top: -300px;
+  left: 1056px;
+  width: 124px;
+  height: 50px;
+  z-index: 99;
+}
+.sns_li {
+  float: left;
+  margin: 6px 2px;
+  width: 37px;
+  height: 40px;
 }

@@ -23,7 +23,12 @@
         <li class="nav_li" onclick="location.href='./NFC.html'"></li>
         <li class="nav_li" onclick="location.href='./process.html'"></li>
         <li class="nav_li" onclick="location.href='./FAQ.html'"></li>
-        <li class="nav_li" onclick="location.href='https://www.miraeassetpay.kr/welcome/index.html'"></li>
+        <li class="nav_li" onclick="nav_apply()">
+          <div class="nav_btn">
+            <button id="online"></button>
+            <button id="visit" onclick="location.href='https://www.miraeassetpay.kr/welcome/index.html'"></button>
+          </div>
+        </li>
       </ul>
     </nav>
     <div class="info">
@@ -58,12 +63,20 @@
 
     <div class="footer">
       <img src="./common/img/footer.png" class="footer">
-        <button id="go_apply" onclick="location.href='https://www.miraeassetpay.kr/welcome/index.html'"></button>
+      <button id="go_apply" onclick="location.href='https://www.miraeassetpay.kr/welcome/index.html'"></button>
       <button id="privacy_agree" onclick="location.href='./terms/personal_info.html'"></button>
       <button id="pay_agree" onclick="location.href='./terms/pay_info.html'"></button>
       <button id="asset_agree" onclick="location.href='./terms/asset_info.html'"></button>
       <button id="shoot_agree" onclick="location.href='./terms/shoot_info.html'"></button>
-      <a id="info_PDF" href="./img/servicePDF/service_information.pdf" download="미래에셋페이 서비스 소개서.pdf" data-name="pdf 다운로드"></a>
+      <div class="sns">
+        <ul>
+          <li class="sns_li" id="kakaotalk"></li>
+          <li class="sns_li" id="youtube"></li>
+          <li class="sns_li" id="instagram"></li>
+        </ul>
+      </div>
+      <a id="info_PDF" href="./img/servicePDF/service_information.pdf" download="미래에셋페이 서비스 소개서.pdf"
+        data-name="pdf 다운로드"></a>
       <a id="apply_PDF" href="./img/servicePDF/service_apply _form.pdf" download="미래에셋페이 서비스 신청서.pdf"
         data-name="pdf 다운로드"></a>
     </div>
@@ -72,7 +85,7 @@
   </div>
 
 
-    <!-- <img src="./ref/applyProcess.jpg" style="opacity: 0.5;" class="ref"> -->
+  <!-- <img src="./ref/applyProcess.jpg" style="opacity: 0.5;" class="ref"> -->
 
   <script src="./common/js/lib/jquery-3.3.1.min.js"></script>
   <script src="./common/js/lib/TweenMax.min.js"></script>
