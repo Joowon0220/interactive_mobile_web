@@ -1,22 +1,25 @@
 $(document).ready(function () {
-  $(".anchor").on("click", arrow);
+  $(".Q").on("click", answer);
 })
 
 
 
 
-function arrow() {
+function answer() {
 
   $(this).toggleClass('on');
-  if ($(this).parent().next('.A').hasClass('ontxt')) {
-    $(this).parent().next('.A').css('display', 'none');
+  if ($(this).next().hasClass('ontxt')) {
+    $(this).next().css('display', 'none');
+    $(this).children('.anchor').removeClass('on');
     $('.A').removeClass('ontxt');
     console.log('a :');
   } else {
-    $(this).parent().next('.A').css('display', 'block');
-    $(this).parent().next('.A').addClass('ontxt');
+    $(this).next().css('display', 'block');
+    $(this).children('.anchor').addClass('on');
+    $(this).next().addClass('ontxt');
     console.log('b');
   }
 
 }
+
 

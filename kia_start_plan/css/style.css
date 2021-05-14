@@ -1,0 +1,256 @@
+@import url(../../common/css/common.css);
+
+/*================== 
+sub 2
+ ==================*/
+.main-container {
+  background-image: url(../img/bg.png);
+  width: 540px;
+  height: 2970px;
+  overflow: hidden;
+  position: relative;
+  left: 0;
+}
+.main-container div ,.main-container img{
+  position: absolute;
+}
+.tit{
+  top: 150px;
+  left: 76px;
+}
+.ft{
+  position: relative;
+}
+.back{
+  width: 140px;
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  left: 200px;
+}
+/* bg contents */
+
+.pic1{
+  top: 448px;
+  left: 70px
+}
+.pic2{
+  top: 600px;
+}
+.pic3{
+  top: 1180px;
+}
+.pic4{
+  top: 1370px;
+  left: 45px;
+}
+.pic5{
+  top: 1770px;
+}
+.pic6{
+  top: 590px;
+  z-index: 1;
+}
+/* part1 */
+.pt1{
+  top: 700px;
+  left: 290px;
+}
+.coin_fix1{
+  top: 140px;
+  left: 150px;
+}
+.coin_fix2{
+  top: 50px;
+}
+.coin1{
+  left: 90px;
+  top: 90px;
+  z-index: 1;
+
+}
+.coin2{
+  left: 90px;
+  top: 90px;
+  z-index: 1;
+
+}
+.coin3{
+  left: 90px;
+  top: 90px;
+  z-index: 1;
+
+}
+.pig_sd{
+  top: 110px;
+  left: 28px;
+}
+.pig{
+  top: 68px;
+  left: 48px;
+  transform: rotate(-20deg);
+  z-index: 1;
+
+}
+/* part2 */
+.pt2{
+  top: 1010px;
+  left: 150px;
+}
+.cars{
+  top: 30px;
+  left: 60px
+}
+.txt_sd{
+  top: 81px;
+  left: 163px;
+  transform-origin: bottom;
+}
+.txt1{
+  top: 73px;
+  left: 235px;
+}
+.txt2{
+  top: 104px;
+  left: 167px;
+}
+.effect{
+  left: 105px;
+  transform-origin: bottom;
+}
+
+/* part3 */
+.pt3{
+  top: 1010px;
+  left: 150px;
+}
+.oil1{
+  top: 510px;
+  left: 40px;
+  transform-origin: top center;
+  z-index: 8;
+}
+.oil2{
+  top: 560px;
+  left: 65px;
+  transform-origin: top center;
+  z-index: 8;
+}
+.oil_mc{
+  top: 490px;
+  left: 45px;
+  z-index: 8;
+}
+/* part4 */
+.pt4{
+  top: 1010px;
+  left: 150px;
+}
+.man1{
+  top: 1210px;
+  left: 220px;
+}
+.man2{
+  top: 1150px;
+  left: 280px;
+}
+.spaner{
+  top: 1208px;
+  left: 215px;
+}
+
+/* part5 */
+.pt5{
+  top: 2610px;
+}
+.pt5 img{
+  z-index: 1;
+}
+.gd_box{
+  top: 170px;
+}
+.per2{
+  left: 120px;
+  z-index: 2 !important;
+
+}
+
+.twink{
+  width: 16px;
+  height: 16px;
+  z-index: 2 !important;
+  background-image: url('../img/5/twink.png');
+  opacity: 0;
+}
+
+.twink1{
+  top: 3px;
+  left: 310px;
+}
+.twink2{
+  top: -17px;
+  left: 346px;
+}
+.twink3{
+  top: 163px;
+  left: 374px;
+}
+.twink4{
+  top: -7px;
+  left: 470px;
+}
+/* txt box */
+.box1{
+  top: 492px;
+  left: 298px;
+}
+.box2{
+  top: 950px;
+  left: 50px;
+}
+.box3{
+  top: 1420px;
+  left: 280px;
+  z-index: 7;
+}
+.box4{
+  top: 1890px;
+  left: 38px;
+
+}
+.box5{
+  top: 2560px;
+  left: 300px;
+  z-index: 2;
+
+}
+/* car */
+.car{
+  top: 560px; 
+  left: 0px;
+  width: 200px;
+  height: 120px;
+}
+.eff1{
+  top: 8px;
+  left: 20px;
+}
+.eff2{
+  top:-0px;
+  left: 2px;
+}
+.red_car{
+  left: 25px;
+  top: -10px;
+}
+.eff{
+  opacity: 0;
+}
+.box{
+  opacity:0;
+}  
+
+
+
+/* x -170 */
+/* y -120 */

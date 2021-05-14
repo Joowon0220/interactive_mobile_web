@@ -16,6 +16,7 @@ html {
 .category {
   position: relative;
   top: -10px;
+  left: -424px;
   border: 1px solid #f85021;
   padding: 0 15px;
   border-radius: 5px;
@@ -30,6 +31,7 @@ html {
   position: relative;
   top: 0px;
   border-bottom: 1px solid #c4c4c4;
+  cursor: pointer;
   /* background-color: royalblue; */
   /* opacity: 0.5; */
 }

@@ -9,11 +9,9 @@ function arrow() {
   if ($('.bottom').hasClass('ontxt')) {
     $('.bottom').css('display', 'none');
     $('.bottom').removeClass('ontxt');
-    console.log('a');
   } else {
     $('.bottom').css('display', 'block');
     $('.bottom').addClass('ontxt');
-    console.log('b');
   }
 }
 
@@ -22,11 +20,9 @@ function arrow2() {
   if ($('.bottom_b').hasClass('ontxt')) {
     $('.bottom_b').css('display', 'none');
     $('.bottom_b').removeClass('ontxt');
-    console.log('a');
   } else {
     $('.bottom_b').css('display', 'block');
     $('.bottom_b').addClass('ontxt');
-    console.log('b');
   }
 }
 
